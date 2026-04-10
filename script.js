@@ -21,7 +21,12 @@ const mathOperations = [
     { cat: "Trigonometria & Constantes", name: "Seno (90°)", code: "Math.sin(90 * PI / 180)", res: Math.sin(90 * Math.PI / 180).toFixed(2) },
     
     { cat: "Aleatoriedade", name: "Número Aleatório", code: "Math.random()", res: Math.random().toFixed(4) },
-    { cat: "Aleatoriedade", name: "Inteiro (1 a 10)", code: "Math.floor(Math.random() * 10) + 1", res: Math.floor(Math.random() * 10) + 1 }
+    { cat: "Aleatoriedade", name: "Inteiro (1 a 10)", code: "Math.floor(Math.random() * 10) + 1", res: Math.floor(Math.random() * 10) + 1 },
+
+    { cat: "operadores de Comparação", name: "Igualdade (==)", code: "5 == '5'", res: 5 == '5' },
+    { cat: "operadores de Comparação", name: "Estritamente Igual (===)", code: "5 === '5'", res: 5 === '5' },
+    { cat: "operadores de Comparação", name: "Diferente (!=)", code: "5 != '5'", res: 5 != '5' },
+    { cat: "operadores de Comparação", name: "Estritamente Diferente (!==)", code: "5 !== '5'", res: 5 !== '5' }
 ];
 
 const container = document.getElementById('main-container');

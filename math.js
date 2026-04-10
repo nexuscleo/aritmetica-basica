@@ -79,3 +79,9 @@ console.log("\n--- Verificações ---");
 console.log("É um número finito?:", Number.isFinite(10 / 0)); // false
 console.log("É 'Not a Number' (NaN)?:", Number.isNaN("texto" * 2)); // true
 
+// 7. Operadores de Comparação
+console.log("\n--- Operadores de Comparação ---");
+console.log("Igualdade (5 == '5'):", 5 == '5'); // true
+console.log("Estritamente Igual (5 === '5'):", 5 === '5'); // false
+console.log("Diferente (5 != '5'):", 5 != '5'); // false
+console.log("Estritamente Diferente (5 !== '5'):", 5 !== '5'); // true
