@@ -26,7 +26,11 @@ const mathOperations = [
     { cat: "operadores de Comparação", name: "Igualdade (==)", code: "5 == '5'", res: 5 == '5' },
     { cat: "operadores de Comparação", name: "Estritamente Igual (===)", code: "5 === '5'", res: 5 === '5' },
     { cat: "operadores de Comparação", name: "Diferente (!=)", code: "5 != '5'", res: 5 != '5' },
-    { cat: "operadores de Comparação", name: "Estritamente Diferente (!==)", code: "5 !== '5'", res: 5 !== '5' }
+    { cat: "operadores de Comparação", name: "Estritamente Diferente (!==)", code: "5 !== '5'", res: 5 !== '5' },
+    { cat: "operadores de Comparação", name: "Maior que (>)", code: "5 > 3", res: 5 > 3 },
+    { cat: "operadores de Comparação", name: "Menor que (<)", code: "5 < 3", res: 5 < 3 },
+    { cat: "operadores de Comparação", name: "Maior ou Igual (>=)", code: "5 >= 5", res: 5 >= 5 },
+    { cat: "operadores de Comparação", name: "Menor ou Igual (<=)", code: "5 <= 3", res: 5 <= 3 }
 ];
 
 const container = document.getElementById('main-container');

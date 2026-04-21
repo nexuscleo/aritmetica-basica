@@ -85,3 +85,7 @@ console.log("Igualdade (5 == '5'):", 5 == '5'); // true
 console.log("Estritamente Igual (5 === '5'):", 5 === '5'); // false
 console.log("Diferente (5 != '5'):", 5 != '5'); // false
 console.log("Estritamente Diferente (5 !== '5'):", 5 !== '5'); // true
+console.log("Maior que (5 > 3):", 5 > 3); // true
+console.log("Menor que (5 < 3):", 5 < 3); // false
+console.log("Maior ou Igual (5 >= 5):", 5 >= 5); // true
+console.log("Menor ou Igual (5 <= 3):", 5 <= 3); // false
