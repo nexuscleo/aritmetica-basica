@@ -89,3 +89,9 @@ console.log("Maior que (5 > 3):", 5 > 3); // true
 console.log("Menor que (5 < 3):", 5 < 3); // false
 console.log("Maior ou Igual (5 >= 5):", 5 >= 5); // true
 console.log("Menor ou Igual (5 <= 3):", 5 <= 3); // false
+
+// 8. Operadores Lógicos
+console.log("\n--- Operadores Lógicos ---");
+console.log("AND (true && false):", true && false); // false
+console.log("OR (true || false):", true || false); // true
+console.log("NOT (!true):", !true); // false

@@ -9,6 +9,16 @@ const mathOperations = [
     { cat: "Aritmética Básica", name: "Divisão", code: "10 / 3", res: (10 / 3).toFixed(2) },
     { cat: "Aritmética Básica", name: "Exponenciação", code: "10 ** 3", res: 10 ** 3 },
     { cat: "Aritmética Básica", name: "Módulo (Resto)", code: "10 % 3", res: 10 % 3 },
+
+    { cat: "Incremento & Decremento", name: "Incremento (c++)", code: "let c = 5; c++", res: 6 },
+    { cat: "Incremento & Decremento", name: "Decremento (c--)", code: "let c = 5; c--", res: 4 },
+
+    { cat: "Atribuição Composta", name: "Soma Composta (d += 5)", code: "let d = 10; d += 5", res: 15 },
+    { cat: "Atribuição Composta", name: "Multiplicação Composta (d *= 2)", code: "let d = 10; d *= 2", res: 20 },
+    { cat: "Atribuição Composta", name: "Subtração Composta (d -= 3)", code: "let d = 10; d -= 3", res: 7 },
+    { cat: "Atribuição Composta", name: "Divisão Composta (d /= 2)", code: "let d = 10; d /= 2", res: 5 },
+    { cat: "Atribuição Composta", name: "Módulo Composto (d %= 3)", code: "let d = 10; d %= 3", res: 1 },
+    { cat: "Atribuição Composta", name: "Exponenciação Composta (d **= 2)", code: "let d = 10; d **= 2", res: 100 },
     
     { cat: "Objeto Math", name: "Arredondar (Round)", code: "Math.round(4.7)", res: Math.round(4.7) },
     { cat: "Objeto Math", name: "Piso (Floor)", code: "Math.floor(4.7)", res: Math.floor(4.7) },
@@ -30,7 +40,11 @@ const mathOperations = [
     { cat: "operadores de Comparação", name: "Maior que (>)", code: "5 > 3", res: 5 > 3 },
     { cat: "operadores de Comparação", name: "Menor que (<)", code: "5 < 3", res: 5 < 3 },
     { cat: "operadores de Comparação", name: "Maior ou Igual (>=)", code: "5 >= 5", res: 5 >= 5 },
-    { cat: "operadores de Comparação", name: "Menor ou Igual (<=)", code: "5 <= 3", res: 5 <= 3 }
+    { cat: "operadores de Comparação", name: "Menor ou Igual (<=)", code: "5 <= 3", res: 5 <= 3 },
+
+    { cat: "Operadores Lógicos", name: "AND (&&)", code: "true && false", res: true && false },
+    { cat: "Operadores Lógicos", name: "OR (||)", code: "true || false", res: true || false },
+    { cat: "Operadores Lógicos", name: "NOT (!)", code: "!true", res: !true },
 ];
 
 const container = document.getElementById('main-container');
